@@ -44,7 +44,7 @@ main()
 """
 # making one for myself to practice
 
-
+"""
 def verse(name):
     print("hello ", name, ", im testing for mode")
 
@@ -70,6 +70,43 @@ def sinfamilysong():
 
 def main():
     sinfamilysong()
+
+
+main()
+"""
+# make a code that marks a letter for an age range
+
+""""
+def agerange():
+    I = 0-1
+    C = 1-13
+    T = 12-18
+    A = 18
+    U = unknown
+"""
+
+
+def age():
+    print(input("what is your age? "))
+
+
+def functions():
+    if age < 2:
+        return "I"
+    elif age < 13:
+        return "C"
+    elif age < 18:
+        return "T"
+    elif age <= 125:
+        return "A"
+    else:
+        return "unknown"
+
+
+def main():
+    print()
+    print("your character is:", functions, "")
+    functions()
 
 
 main()
